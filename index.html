@@ -46,7 +46,7 @@
    
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ 
    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 <script>
   $(document).ready(function() {
@@ -89,7 +89,7 @@ xhr.onreadystatechange = function () {
     document.getElementsByClassName('message')[0].textContent = serverResponse.userName + serverResponse.suffix;
   }
 };
-const body = JSON.stringify({ userName: userName, suffix: ' loves cats!' });
+const body = JSON.stringify({  suffix: ' Thank you!' });
 xhr.send(body);
     };
   });
